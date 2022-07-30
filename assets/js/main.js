@@ -63,9 +63,9 @@ $(function() {
         BasicSlider.slick({
             autoplay: true,
             autoplaySpeed: 5000,
-            dots: true,
+            dots: false,
             fade: true,
-			arrows: false,
+			      arrows: false,
             responsive: [
                 { breakpoint: 767, settings: { dots: false, arrows: false } }
             ]
@@ -95,10 +95,12 @@ $(function() {
     
     $('.product-items-active').slick({
         dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
         infinite: true,
         speed: 600,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         adaptiveHeight: true,
         arrows:true,
         prevArrow:'<span class="prev"><i class="lni-chevron-left"></i></span>',
@@ -108,26 +110,34 @@ $(function() {
           breakpoint: 1200,
           settings: {
             slidesToShow: 3,
+            slidesToScroll: 3,
           }
         },
         {
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows:false,
+            dots: true,
           }
         },
         {
           breakpoint: 768,
           settings: {
             slidesToShow: 2,
-            arrows: false,
+            slidesToScroll: 2,
+            arrows:false,
+            dots: true,
           }
         },
         {
           breakpoint: 576,
           settings: {
             slidesToShow: 1,
-            arrows: false,
+            slidesToScroll: 1 ,
+            arrows:false,
+            dots: true,
           }
         }
         ]
