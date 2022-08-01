@@ -12,7 +12,7 @@ $(function () {
         showArrows: false,
         showPagination: true,
         duration: 6000,
-        autoplay: false
+        autoplay: true
       };
       let options = Object.assign({}, defaultOptions, userOptions);
       this.$el = options.$el;
