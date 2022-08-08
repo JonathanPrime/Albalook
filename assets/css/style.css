@@ -1125,8 +1125,8 @@ p {
 }
 
 .collection-menu .nav a.active {
-  background-color: #fe7865;
-  border-color: #fe7865;
+  background-color: var(--palet-1);
+  border-color: var(--palet-1);
   color: #fff;
 }
 
@@ -1198,7 +1198,7 @@ p {
 }
 
 .single-product-items .product-item-content .regular-price {
-  color: #fe7865;
+  color: var(--black);
 }
 
 .single-product-items .product-item-content .discount-price {
@@ -1285,11 +1285,11 @@ p {
 
 .product-items-active .slick-arrow i {
   font-size: 18px;
-  color: #fe7865;
+  color: var(--palet-1);
   width: 50px;
   line-height: 48px;
   border-radius: 50%;
-  border: 1px solid #fe7865;
+  border: 1px solid var(--palet-1);
   background-color: #fff;
   text-align: center;
   cursor: pointer;
@@ -1317,8 +1317,8 @@ p {
 }
 
 .product-items-active .slick-arrow i:hover {
-  background-color: #fe7865;
-  border-color: #fe7865;
+  background-color: var(--palet-1);
+  border-color: var(--palet-1);
   color: #fff;
 }
 
@@ -1510,7 +1510,7 @@ p {
 .showcase-active .slick-arrow i {
   width: 70px;
   line-height: 50px;
-  background-color: #fe7865;
+  background-color: var(--palet-1)
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -1741,7 +1741,7 @@ p {
 }
 
 .single-blog .blog-content .content .title a:hover {
-  color: #fe7865;
+  color: var(--palet-2);
 }
 
 .single-blog .blog-content .content span {
@@ -1775,7 +1775,7 @@ p {
 }
 
 .single-blog .blog-content .meta .meta-admin .admin-title .title a:hover {
-  color: #fe7865;
+  color: var(--palet-2);
 }
 
 .single-blog .blog-content .meta .meta-icon ul li {
@@ -1798,7 +1798,7 @@ p {
 }
 
 .single-blog .blog-content .meta .meta-icon ul li a:hover {
-  color: #fe7865;
+  color: var(--palet-2);
 }
 
 .single-blog:hover .blog-image img {
@@ -1871,7 +1871,7 @@ p {
 
 .single-info .info-icon i {
   font-size: 20px;
-  color: #fe7865;
+  color: var(--palet-2);
 }
 
 .single-info .info-content {
@@ -2038,7 +2038,7 @@ p.form-message.error {
 }
 
 .footer-link ul li a {
-  color: #777;
+  color: rgb(226, 226, 226);
   font-size: 16px;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -2048,7 +2048,7 @@ p.form-message.error {
 }
 
 .footer-link ul li a:hover {
-  color: #fe7865;
+  color: var(--palet-1);
 }
 
 .footer-info {
@@ -2079,7 +2079,7 @@ p.form-message.error {
 
 .single-footer-info span {
   font-size: 16px;
-  color: #777;
+  color: rgb(226, 226, 226);
   position: absolute;
   top: 0;
   left: 0;
@@ -2088,6 +2088,14 @@ p.form-message.error {
 .single-footer-info .footer-info-content {
   padding-left: 90px;
   color: var(--white);
+}
+
+.info-content {
+  color: var(--gray) !important;
+}
+
+.info-content .iconify {
+  color: var(--palet-2);
 }
 
 .footer-copyright {
@@ -2100,6 +2108,17 @@ p.form-message.error {
 
 .footer-copyright .copyright p {
   color: rgb(226, 226, 226);
+}
+
+.nav-link {
+  font-size: 16px;
+  color: rgb(226, 226, 226);
+  padding: 0px !important;
+}
+
+.nav-link:hover,
+.nav-link.active  {
+  color: var(--palet-1);
 }
 
 @media (max-width: 767px) {
