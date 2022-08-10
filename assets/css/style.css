@@ -1342,7 +1342,12 @@ p {
      6.SERVICES css 
 ===========================*/
 .services-area {
-  background-color: #e0e0e08f;
+  background: url('../images/patron.svg') ;
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  width: 100%;
+  position: relative;
 }
 
 @media (max-width: 767px) {
@@ -1687,6 +1692,17 @@ p {
 .testimonial-play a i {
   margin-left: 10px;
   line-height: 90px;
+}
+
+/* United section */
+
+.united-section {
+  background: url('../images/patron.svg') ;
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  width: 100%;
+  position: relative;
 }
 
 /*===========================
